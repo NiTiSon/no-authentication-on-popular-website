@@ -8,15 +8,14 @@
     "128": "icon128.png"
   },
 
-  "description": "Add-on makes it possible to visit pornhub without authentication via VK",
+  "description": "Addon makes it possible to visit pornhub without authentication via VK",
 
-  "homepage_url": "https://github.com/andreyvpng/no-authentication-in-popular-website",
+  "homepage_url": "https://github.com/NiTiSon/no-authentication-in-popular-website",
 
   "content_scripts": [
     {
-      "matches": ["*://*.pornhub.com/*"],
+      "matches": ["*://*.pornhub.com/*", "*://*.pornhub.org/*"],
       "js": ["main.js"]
     }
   ]
-
 }
