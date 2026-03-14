@@ -1,16 +1,17 @@
 {
-  "manifest_version": 2,
-  "name": "No authentication in popular website",
-  "version": "1.2",
+  "manifest_version": 3,
+  "name": "No Authentication on the Popular Website",
+  "version": "2.0",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
+    "96": "icon96.png",
     "128": "icon128.png"
   },
 
-  "description": "Addon makes it possible to visit pornhub without authentication via VK",
+  "description": "This addon allows you to visit Pornhub without authentication via third-party sites.",
 
-  "homepage_url": "https://github.com/NiTiSon/no-authentication-in-popular-website",
+  "homepage_url": "https://github.com/NiTiSon/no-authentication-on-popular-website",
 
   "content_scripts": [
     {
